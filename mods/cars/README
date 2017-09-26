@@ -1,0 +1,31 @@
+Cars mod for Minetest
+=====================
+License/Credits:
+
+Mesh/Textures: Based on "car01" by Melkor with modifications by cheapie, CC-BY-NC-SA
+Code: Written by cheapie, WTFPL
+
+=====================
+Dependencies: None, if you're in creative mode. Crafting requires default and homedecor.
+=====================
+Crafting:
+
+output="cars:car 1",
+recipe={
+	{"default:glass","default:steel_ingot",""},
+	{"homedecor:motor","default:steel_ingot","default:steel_ingot"},
+	{"homedecor:plastic_sheeting","","homedecor:plastic_sheeting"}
+}
+
+=====================
+Use:
+
+Punch anything with a "Car" to turn into a car. You will only be able to see it from third-person view (press F7).
+This has the following effects:
+
+* Makes you appear to be a car
+* Makes you faster (if anticheat is off), unable to jump, and heavier
+
+Note that it does *not* change your collision box or anything related to that, in an attempt to maintain compatibility with narrow roads.
+
+Once you are a car, you can punch anything with a "car" (again) to restore everything to normal.
